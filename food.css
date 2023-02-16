@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    /* width: 100vw; */
+}
+#header{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.slogo{
+    height: 50px;
+    width: 50px;
+}
+
+#search{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dfb3df;
+
+}
+#logo{
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 10px;
+}
+#heading{
+    font-size: 40px;
+    text-align: center;
+}
+.dropdown{
+    height: 60px;
+    width: 60%;  
+}
+.dropdown select{
+    height: 62px;
+    width: 49%;
+    font-size: 20px;
+}
+
+#quicksearch{
+    display: flex;
+    flex-direction: column;
+}
+#quickheading{
+    font-size: 60px;
+    padding-left: 40px;
+    font-weight: 600;
+}
+#quicksubheading{
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+#main{
+    background-color: rgb(95, 150, 199);
+    height: 650px;
+    padding-left: 10px;
+    
+}
+.tilecontainer{
+    background-color: bisque;
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 200px;
+    width: 350px;
+    margin: 5px;
+    border-radius: 10%;
+}
+
+.tile1 img{
+    height: 200px;
+    width: 175px;
+    border-radius: 10%;
+}
+.tile2{
+    font-size: x-large;
+    text-align: center;
+    height: 200px;
+    width: 175px;
+    padding-top: 10px;
+}
+#footer{
+    text-align: center;
+    position: relative;
+}
+.footbox ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: rap;
+    
+}
+.footbox ol li{
+    text-decoration: none;
+    justify-items: normal;
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2000px) {
+    #main{
+        background-color: rgb(95, 150, 199);
+        height: 600px;
+        padding-top: 10px;
+    }
+    .tilecontainer{
+        height: 200px;
+        width: 400px;
+        margin: 25px;
+        
+      
+    } 
+}
+
+    
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #main{
+        background-color: blue;
+        height: 400px;
+        padding-right: 30px;
+    
+    }
+    .tilecontainer{
+        height: 100px;
+        width: 200px;
+        margin: 10px;  
+    }
+    .tile1 img{
+        height: 100px;
+        width: 100px;
+    }
+    .tile2{
+        font-size: 15px;
+        text-align: center;
+        height: 100px;
+        width: 100px;
+    }
+    #quickheading{
+        font-size: 60px;
+        padding-left: 40px;
+        font-weight: 600;
+    }
+    #quicksubheading{
+        font-size: 40px;
+        font-weight: 600;
+        margin-left: 40px;
+    }
+}
+@media screen and (min-width: 530px) and (max-width: 767px){
+    #main{
+        background-color: rgb(105, 218, 127);
+        height: 1500px;
+        padding-left: 80px;
+    }
+    #quickheading{
+        font-size: 40px;
+        padding-left: 40px;
+        font-weight: 500;
+    }
+    #quicksubheading{
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 40px;
+    }
+    .dropdown{
+        height: 30px;
+        width: 50%;
+           
+    }
+    .dropdown select {
+        font-size: 10px;
+    }
+    #search{
+        height: 200px; 
+    }
+    #heading{
+        font-size: 25px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 529px) {
+    .dropdown{
+        height: 60px;
+        width: 300px;
+
+    }
+    .dropdown select {
+        font-size: 10px;
+    }
+    #search{
+        height: 250px; 
+    }
+    #heading{
+        font-size: 10px;
+        
+    }
+    #icon{
+        font-size: 10px;
+    }
+    .slogo{
+        height: 25px;
+        width: 25px;
+    }
+    #quickheading{
+        font-size: 20px;
+        padding-left: 40px;
+        font-weight: 500;
+    }
+    #quicksubheading{
+        font-size: 10px;
+        font-weight: 500;
+        margin-left: 40px;
+    }
+    #main{
+        background-color: rgb(233, 114, 114);
+        height: 1500px;
+        padding-left: 5px;
+        align-items: center; 
+    }
+    .tilecontainer{
+        height: 150px;
+        width: 300px;  
+    }
+    
+    .tile1 img{
+        height: 150px;
+        width: 150px;
+    }
+    .tile2{
+        font-size: larger;
+        height: 150px;
+        width: 150px;
+    }
+    
+    
+   
+}
